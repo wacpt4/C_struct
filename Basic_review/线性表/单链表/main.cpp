@@ -6,7 +6,7 @@ typedef struct LNode{
         ElemType data;
         struct LNode *next;
 }LNode,*LinkList;
-//头插法新建链表
+//头插法新建链表  headinsert()
 LinkList CreatList1(LinkList &L)
 {
         LNode *s;int x;
@@ -22,7 +22,7 @@ LinkList CreatList1(LinkList &L)
         }
         return L;
 }
-//尾插法新建链表
+//尾插法新建链表 nilinsert()
 LinkList CreatList2(LinkList &L)
 {
         int x;

@@ -1,0 +1,16 @@
+第一个与其余各个数比较
+
+i 辅助j  中间数temp  而不是矩阵思想  i不变，先循环里面，j一直变，所以实现了第一个与其余各个数字的比较
+
+a[];
+int i,j,temp;
+for(i=0;i<a.length-1;i++)
+ { for(j=i+1;j<a.length;j++)
+  {
+    if(a[i]>a[j]);
+    {
+      temp=a[i];
+      a[i]=a[j];
+      a[j]=tmp;  
+    }
+ }
